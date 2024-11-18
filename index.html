@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <title>Home</title>
+                        <script src="https://cdn.tailwindcss.com"></script>
+                    </head>
+                    <body class="bg-white">
+                        <main class="max-w-7xl mx-auto p-4 pt-6 text-gray-900 bg-white shadow-md rounded-lg">
+  <h1 class="text-3xl font-bold mb-4">Cryptogram Generator</h1>
+  <section class="mb-6">
+    <h2 class="text-2xl font-bold mb-2">Enter Your Message</h2>
+    <p>Input a message to be encrypted:</p>
+    <textarea class="block p-2 w-full mb-4 rounded-lg border border-gray-400" placeholder="Enter your message..."></textarea>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Encrypt</button>
+  </section>
+  <section class="mb-6">
+    <h2 class="text-2xl font-bold mb-2">Encrypted Message</h2>
+    <p class="font-bold text-lg">Output:</p>
+    <p id="encrypted-message" class="text-lg"></p>
+  </section>
+  <section class="mb-6">
+    <h2 class="text-2xl font-bold mb-2">How it Works</h2>
+    <p>Our cryptogram generator uses a simple substitution cipher to replace letters with symbols.</p>
+    <ol class="list-decimal list-inside list-none ml-4 mb-4">
+      <li>Choose a substitution pattern.</li>
+      <li>Replace each letter with the corresponding symbol.</li>
+      <li>Output the encrypted message.</li>
+    </ol>
+  </section>
+</main>
+                    </body>
+                    </html>
